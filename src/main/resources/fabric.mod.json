@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "id": "starter",
+  "id": "tickedoff",
   "version": "${version}",
 
-  "name": "Fabric Starter",
+  "name": "Ticked Off",
   "icon": "assets/starter/icon.png",
-  "description": "Template for starting out Fabric mods",
+  "description": "Makes the inventories inside chests, shulkers, and barrels tick.",
   "license": "MIT",
   "contact": {
-    "sources": "https://github.com/CottonMC/FabricStarter"
+    "sources": "https://github.com/Boundarybreaker/TickedOff"
   },
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.cottonmc.starter.FabricStarter"
+      "space.bbkr.tickedoff.TickedOff"
     ]
   },
   "mixins": [
-    "mixins.starter.json"
+    "mixins.tickedoff.json"
   ],
   "depends": {
     "fabricloader": ">=0.4.0"
